@@ -32,3 +32,5 @@ requestCheck.check(options, isAllowed => {
 })
 
 ```
+
+for more options parameter please check https://www.npmjs.com/package/request
