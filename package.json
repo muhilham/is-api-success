@@ -1,0 +1,15 @@
+{
+  "name": "is-api-success",
+  "version": "0.1.0",
+  "description": "Simple helper",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Muhammad Ilham",
+  "license": "ISC",
+  "dependencies": {
+    "request": "^2.79.0"
+  }
+}
