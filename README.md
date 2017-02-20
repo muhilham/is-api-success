@@ -23,10 +23,10 @@ const options = {
   }
 }
 
-requestCheck.check(options, isAllowed => {
+requestCheck.check(options, (isAllowed, data) => {
   if (isAllowed) {
     //Request is success. Do anything here
-    return true
+    return data
   }
   return false //Request is failed.
 })
